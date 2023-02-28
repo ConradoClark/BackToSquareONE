@@ -33,5 +33,11 @@ public class RoomObject : BaseGameObject
     private void Room_OnActivation()
     {
         gameObject.SetActive(true);
+        OnActivation();
+    }
+
+    protected virtual void OnActivation()
+    {
+
     }
 }
