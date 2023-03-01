@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Cinemachine;
 using Licht.Unity.Physics;
 using Licht.Unity.Pooling;
 using UnityEngine;
@@ -14,6 +15,9 @@ public class Bullet : EffectPoolable
 
     [field: SerializeField]
     public BulletParamsContainer BulletParams { get; private set; }
+
+    [field: TagField]
+    public string Target { get; set; }
 
     public Vector2 Direction { get; private set; }
 
@@ -30,6 +34,12 @@ public class Bullet : EffectPoolable
     {
         public BulletParam[] Params;
         public IDictionary<string, float> ParamsDict => Params.ToDictionary(k => k.Key, v => v.Value);
+    }
+
+    protected override void OnAwake()
+    {
+        base.OnAwake();
+        PhysicsObject.AddCustomObject(this);
     }
 
     public override void OnActivation()

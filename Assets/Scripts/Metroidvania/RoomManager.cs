@@ -26,6 +26,11 @@ public class RoomManager : BaseGameObject
         _rooms[room.RoomPos] = room;
     }
 
+    public Room GetCurrentRoom()
+    {
+        return _rooms[CurrentRoom.CurrentRoomPos];
+    }
+
     public Room GetNextRoom(Room room, Vector2Int direction)
     {
         var nextRoomPos = room.RoomPos + direction;
@@ -56,6 +61,7 @@ public class RoomManager : BaseGameObject
     private void OnRoomEnter(Room obj)
     {
         obj.Activate();
+        CurrentRoom.CurrentRoomPos = obj.RoomPos;
     }
 
     protected override void OnDisable()

@@ -16,4 +16,7 @@ public class WeaponHolder : BaseGameObject
     [field: SerializeField]
     public string Target { get; private set; }
 
+    [field: SerializeField]
+    public Vector2 SpawnOffset { get; private set; }
+
 }

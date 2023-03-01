@@ -12,7 +12,7 @@ public class BulletPoolManager : CustomPrefabManager<BulletPool, Bullet>
 public static class BulletPoolExtensions
 {
     public static bool TrySpawnBullet(this ScriptPrefab bulletPrefab, Bullet.BulletParam[] bulletParams,
-        Vector2 position,
+        Vector2 position, string bulletTarget,
         out Bullet bullet)
     {
         if (!SceneObject<BulletPoolManager>.Instance().GetEffect(bulletPrefab).TryGetFromPool(out bullet))
@@ -20,6 +20,7 @@ public static class BulletPoolExtensions
             return false;
         }
 
+        bullet.Target = bulletTarget;
         bullet.SetParams(bulletParams);
         bullet.transform.position = position;
         return true;
