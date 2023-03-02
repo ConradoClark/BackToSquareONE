@@ -1,0 +1,1456 @@
+fileFormatVersion: 2
+guid: 3d29bef332bca3141a19514b7a0146d2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 948
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e96a47c3f2ef9408629eda59d21d42
+      internalID: 60767518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 948
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35357efef75599d4eaa761db3948e93b
+      internalID: -1913580195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_2
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 948
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0962cb25349d15d45a152fd6037d1aa9
+      internalID: 646980250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_3
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 948
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d72cdcc009a8f64ca288cb7959d0d50
+      internalID: 1253797566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_4
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 948
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7920f28d67080440931a1e703c9ca6e
+      internalID: 328173353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_5
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 948
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e45f0cc92f224c4397a1dceb08bbf9f
+      internalID: -145107489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_6
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 948
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e427bdf50f44db4aa3fab83f4be0664
+      internalID: 1343709710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_7
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 948
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd17c924e81efac41bb07cb882944811
+      internalID: 423073191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_8
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 948
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5bbc1c5fda1644ca0581f90f299472
+      internalID: 174510980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 790
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c92c5fe2a865f40b2449f1fb2f0fce
+      internalID: -1906107994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_10
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 790
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03123c8c87385bf4788d082114181e2c
+      internalID: -1839236126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_11
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 790
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8333fe80cbd378e4bbce5de8e4dfa3f8
+      internalID: -1384261843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_12
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 790
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6568b760a7bf52d4eb8c4bc3cd129444
+      internalID: 1156189886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_13
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 790
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb33874dd062a045aae509e481be753
+      internalID: -525664446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_14
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 790
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daaf4671ef591b343a832cbfa5acac33
+      internalID: 570630418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_15
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 790
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d76e45b9aeef8e4e8b27f4e1a1e04eb
+      internalID: 1475999190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_16
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 790
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0256994a7025f5c4993b73b9daffe192
+      internalID: 1941990231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_17
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 790
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc9a53ba555a6b47bd3906f3d7934df
+      internalID: 525829575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 632
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c82819218777847b587eeb16bb6b87
+      internalID: 761471061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_19
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 632
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2aca60216765c42bfb0a40df456568
+      internalID: 1058143691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_20
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 632
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc6f2f1896cbb74ca0725f3d6ae1db6
+      internalID: 1531589369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_21
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 632
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c781c6b97b8b3a46a737e7194237420
+      internalID: -395086853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_22
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 632
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19509f57104c6d04aadfc6783fcb8ab6
+      internalID: 464085565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_23
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 632
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e083387042abf334e9434c6c421cb74c
+      internalID: -1012965824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_24
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 632
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2672190fd8145764fb82f1415d946539
+      internalID: -633658767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_25
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 632
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ffde7ca7bb53b45b97801b86a06766
+      internalID: -1479998272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_26
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 632
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae861c671d84604088e980265b2f059
+      internalID: 485921752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 474
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be5257b5c1c7b746ae9433e58d6f962
+      internalID: -1468588882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_28
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 474
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2c020ecce606b40ae9bd4505b3df19
+      internalID: -1749613515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_29
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 474
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d18774960eb47243899af0ef9f0a658
+      internalID: 528109600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_30
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 474
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7355166986699be44b3f3f39316e8eab
+      internalID: -874172476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_31
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 474
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ea8de3ed2ca50458cbb674b1511cf7
+      internalID: -253658396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_32
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 474
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b190d5722e67e9409a29972658bb06b
+      internalID: 1739885657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_33
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 474
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef7181e41501ed43ad72d07022105c7
+      internalID: 735998779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_34
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 474
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb77b9a3317c3d48b4611cd71942203
+      internalID: 1438059424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_35
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 474
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5df25356c97b94395884d14935b807
+      internalID: 1642906849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 316
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778b67d0713f70b46b529bbf1521a271
+      internalID: -1743825213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_37
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 316
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb1e679646224e42aa53f38a338b895
+      internalID: 196132676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_38
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 316
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa2d68a9efcf054792007d9894bf4a8
+      internalID: -1473598802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_39
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 316
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b60cfeda4f2a644fa1a01b11ab52c40
+      internalID: 920550653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_40
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 316
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1968d6b79c216245bdcdcaab62dfb03
+      internalID: -2024856942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_41
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 316
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5209870e5c8b7804ca84ea7d649cc720
+      internalID: 1245568734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_42
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 316
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb72fa61e30f97c47870b5d1b05b46d1
+      internalID: 1889048226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_43
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 316
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a6145c8e5aa4647acfb111b5f6550c
+      internalID: -1779868652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_44
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 316
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ad1b7c99b6c0b4f9153df64669cc9d
+      internalID: -1754184450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 158
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4d0ea0a86e1f546a0a5733372764be
+      internalID: 1696359182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_46
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 158
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166a9f4cc0e598542bd1d9b80051da40
+      internalID: 107716563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_47
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 158
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa8617a401be7d45a52f72149bd1b19
+      internalID: 1143702484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_48
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 158
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25f8b194f3beae449b3476e3ee69ebf
+      internalID: 1035310881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_49
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 158
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d611d86a806221a4183d3a623d0f4cd6
+      internalID: 648555599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_50
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 158
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a6e5eb941785c4f93dd020a2a3399c
+      internalID: -1753119594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_51
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 158
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20e24409b8896e498eeead5b03bf843
+      internalID: -2131879468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_52
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 158
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27bbf45849b1f44f9bcf6b206f0717c
+      internalID: 480363572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_53
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 158
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416e2a7b3eddc9642a6f6c5c9a8d4d82
+      internalID: -509577748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed71f666c9e31f4c8c5ff6d8295d3d6
+      internalID: 1010345284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_55
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f943c076ced1b9143bba1323be67b311
+      internalID: 1514140075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_56
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb1c20c15bdbbb4996f1404ab1b26db
+      internalID: -843334343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_57
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70df47d773d47e439c9cab3c4f4cb1f
+      internalID: 1198046384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_58
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fdac6b22d715541a21e7a94b3e1e21
+      internalID: -1114822302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SquareExplode3_144x158_59
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 144
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011da887dde2a1b43b0b2de3e62e1d82
+      internalID: 529676220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SquareExplode3_144x158_0: 60767518
+      SquareExplode3_144x158_1: -1913580195
+      SquareExplode3_144x158_10: -1839236126
+      SquareExplode3_144x158_11: -1384261843
+      SquareExplode3_144x158_12: 1156189886
+      SquareExplode3_144x158_13: -525664446
+      SquareExplode3_144x158_14: 570630418
+      SquareExplode3_144x158_15: 1475999190
+      SquareExplode3_144x158_16: 1941990231
+      SquareExplode3_144x158_17: 525829575
+      SquareExplode3_144x158_18: 761471061
+      SquareExplode3_144x158_19: 1058143691
+      SquareExplode3_144x158_2: 646980250
+      SquareExplode3_144x158_20: 1531589369
+      SquareExplode3_144x158_21: -395086853
+      SquareExplode3_144x158_22: 464085565
+      SquareExplode3_144x158_23: -1012965824
+      SquareExplode3_144x158_24: -633658767
+      SquareExplode3_144x158_25: -1479998272
+      SquareExplode3_144x158_26: 485921752
+      SquareExplode3_144x158_27: -1468588882
+      SquareExplode3_144x158_28: -1749613515
+      SquareExplode3_144x158_29: 528109600
+      SquareExplode3_144x158_3: 1253797566
+      SquareExplode3_144x158_30: -874172476
+      SquareExplode3_144x158_31: -253658396
+      SquareExplode3_144x158_32: 1739885657
+      SquareExplode3_144x158_33: 735998779
+      SquareExplode3_144x158_34: 1438059424
+      SquareExplode3_144x158_35: 1642906849
+      SquareExplode3_144x158_36: -1743825213
+      SquareExplode3_144x158_37: 196132676
+      SquareExplode3_144x158_38: -1473598802
+      SquareExplode3_144x158_39: 920550653
+      SquareExplode3_144x158_4: 328173353
+      SquareExplode3_144x158_40: -2024856942
+      SquareExplode3_144x158_41: 1245568734
+      SquareExplode3_144x158_42: 1889048226
+      SquareExplode3_144x158_43: -1779868652
+      SquareExplode3_144x158_44: -1754184450
+      SquareExplode3_144x158_45: 1696359182
+      SquareExplode3_144x158_46: 107716563
+      SquareExplode3_144x158_47: 1143702484
+      SquareExplode3_144x158_48: 1035310881
+      SquareExplode3_144x158_49: 648555599
+      SquareExplode3_144x158_5: -145107489
+      SquareExplode3_144x158_50: -1753119594
+      SquareExplode3_144x158_51: -2131879468
+      SquareExplode3_144x158_52: 480363572
+      SquareExplode3_144x158_53: -509577748
+      SquareExplode3_144x158_54: 1010345284
+      SquareExplode3_144x158_55: 1514140075
+      SquareExplode3_144x158_56: -843334343
+      SquareExplode3_144x158_57: 1198046384
+      SquareExplode3_144x158_58: -1114822302
+      SquareExplode3_144x158_59: 529676220
+      SquareExplode3_144x158_6: 1343709710
+      SquareExplode3_144x158_7: 423073191
+      SquareExplode3_144x158_8: 174510980
+      SquareExplode3_144x158_9: -1906107994
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

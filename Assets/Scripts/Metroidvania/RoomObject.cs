@@ -40,4 +40,9 @@ public class RoomObject : BaseGameObject
     {
 
     }
+
+    public void Deactivate()
+    {
+        Room_OnDeactivation();
+    }
 }
