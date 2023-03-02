@@ -70,7 +70,7 @@ public class ScaleOnJump : BaseGameObject
         yield return new LerpBuilder(1f)
             .SetTarget(0f)
             .Over(0.25f)
-            .OnEachStep(f => Transformer.ApplyScale(new Vector3(f * XFactor * intensity, -f * YFactor)))
+            .OnEachStep(f => Transformer.ApplyScale(new Vector3(f * XFactor * intensity, -f * YFactor *0.25f - f * YFactor * 0.75f * intensity)))
             .Easing(EasingYields.EasingFunction.QuadraticEaseOut)
             .Build();
     }
@@ -81,7 +81,10 @@ public class ScaleOnJump : BaseGameObject
         {
             while (!_player.IsGrounded) yield return TimeYields.WaitOneFrameX;
 
-            yield return UnSquash(Mathf.Max(0, -_player.PhysicsObject.LatestNonZeroSpeed.y*0.075f)).AsCoroutine();
+            DefaultMachinery.AddUniqueMachine("fallSquash", UniqueMachine.UniqueMachineBehaviour.Cancel,
+                UnSquash(Mathf.Max(0, -_player.PhysicsObject.LatestSpeed.y*0.075f)).AsCoroutine());
+
+            yield return TimeYields.WaitSeconds(GameTimer, 0.25f);
 
             while (_player.IsGrounded) yield return TimeYields.WaitOneFrameX;
         }

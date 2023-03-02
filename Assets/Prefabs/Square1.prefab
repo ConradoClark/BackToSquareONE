@@ -242,11 +242,14 @@ MonoBehaviour:
   <IconSprite>k__BackingField: {fileID: 0}
   <CooldownInMs>k__BackingField: 200
   BulletPrefab: {fileID: 11400000, guid: f3cf001efc0337448940e7207803a5aa, type: 2}
-  Params:
-  - Key: Speed
-    Value: 6
-  - Key: Damage
-    Value: 1
+  WeaponParams:
+    Params:
+    - Key: Speed
+      Value: 3
+    - Key: Damage
+      Value: 1
+    - Key: Range
+      Value: 5
 --- !u!1 &2912472492479223869
 GameObject:
   m_ObjectHideFlags: 0
@@ -263,7 +266,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &6107084728183792648
 Transform:
   m_ObjectHideFlags: 0
