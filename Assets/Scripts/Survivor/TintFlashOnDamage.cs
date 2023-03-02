@@ -13,15 +13,15 @@ public class TintFlashOnDamage : BaseGameObject
     protected override void OnEnable()
     {
         base.OnEnable();
-        Damageable.OnDamageByBullet += OnDamage;
+        Damageable.OnAnyDamage += OnDamage;
     }
     protected override void OnDisable()
     {
         base.OnDisable();
-        Damageable.OnDamageByBullet -= OnDamage;
+        Damageable.OnAnyDamage -= OnDamage;
     }
 
-    private void OnDamage(Bullet obj)
+    private void OnDamage()
     {
         TintFlash.Flash();
     }

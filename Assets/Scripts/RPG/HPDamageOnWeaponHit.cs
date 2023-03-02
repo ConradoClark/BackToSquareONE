@@ -18,12 +18,14 @@ public class HPDamageOnWeaponHit : BaseGameObject
     {
         base.OnEnable();
         Damageable.OnDamageByBullet += OnDamage;
+        Damageable.OnDamageByContact += OnDamageByContact;
     }
 
     protected override void OnDisable()
     {
         base.OnDisable();
         Damageable.OnDamageByBullet -= OnDamage;
+        Damageable.OnDamageByContact -= OnDamageByContact;
     }
 
     private void OnDamage(Bullet obj)
@@ -33,4 +35,10 @@ public class HPDamageOnWeaponHit : BaseGameObject
 
         HP.Value-=damage;
     }
+
+    private void OnDamageByContact(EnemyContactDamage obj)
+    {
+        HP.Value -= obj.Damage;
+    }
+
 }

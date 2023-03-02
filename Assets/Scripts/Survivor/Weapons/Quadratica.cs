@@ -7,7 +7,7 @@ using UnityEngine;
 public class Quadratica : Weapon
 {
     public ScriptPrefab BulletPrefab;
-    public Bullet.BulletParam[] Params;
+    public Bullet.BulletParamsContainer WeaponParams;
 
     private RoomManager _roomManager;
     protected override void OnAwake()
@@ -18,9 +18,12 @@ public class Quadratica : Weapon
 
     protected override Transform[] FindTargets()
     {
+        var spawnPos = (Vector2)Holder.transform.position - Holder.SpawnOffset;
+        var range = WeaponParams.ParamsDict.ContainsKey("Range") ? WeaponParams.ParamsDict["Range"] : 1;
+
         var first = _roomManager.GetCurrentRoom()
             .GetComponentsInChildren<Enemy>()
-            .FirstOrDefault();
+            .FirstOrDefault(e=>Vector2.Distance(e.transform.position, spawnPos) < range);
 
         return first != null ? new[] { first.transform } : null;
     }
@@ -29,9 +32,9 @@ public class Quadratica : Weapon
     {
         var direction = ((Vector2)(target.position - Holder.transform.position ) - Holder.SpawnOffset).normalized;
 
-        if (!BulletPrefab.TrySpawnBullet(Params, (Vector2)Holder.transform.position
-                                                 + Holder.SpawnOffset
-                                                 + direction * 0.5f, Holder.Target, out var bullet))
+        if (!BulletPrefab.TrySpawnBullet(WeaponParams.Params, (Vector2)Holder.transform.position
+                                                              + Holder.SpawnOffset
+                                                              + direction * 0.5f, Holder.Target, out var bullet))
             yield break;
 
         bullet.SetDirection(direction);
